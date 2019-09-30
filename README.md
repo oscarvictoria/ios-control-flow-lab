@@ -33,6 +33,7 @@ print("D")
 - C
 - D
 
+## Answer: A,C,D
 ***
 ## Question 2
 
@@ -56,6 +57,7 @@ switch appInfo {
 - I'm not quite sure what you are looking at
 - It will give a compile-time error
 
+## Answer: myCoolApp hasn't released yet
 ***
 ## Question 3
 
@@ -80,6 +82,7 @@ default:
 - C
 - D
 
+## Answer: D 
 ***
 ## Question 4
 
@@ -103,6 +106,7 @@ case "snickers":
 - No default case in the switch statement
 - No print statement right outside the switch statement
 
+## Answer:  No opening and closing brackets in each of the cases
 ***
 ## Question 5
 
@@ -113,6 +117,25 @@ let currentWeather = "rain"
 
 // enter code below
 ```
+
+let currentWeather = "rain"
+
+switch currentWeather {
+case "rain" :
+    print("bring an umbrealla")
+case "sunny" :
+    print("wear shorts")
+case "snow" :
+    print("bring a jacket")
+    
+default:
+print("no further action needed")
+    
+}
+
+
+
+    
 
 ***
 ## Question 6
@@ -125,6 +148,14 @@ let lastName = "Appleseed"
 
 // enter code below
 ```
+let firstName = "John"
+
+let lastName = "Appleseed"
+
+var fullName = "John Appleseed"
+
+print("John \(lastName)")
+
 
 ***
 
@@ -159,6 +190,16 @@ else {
  print("You lose!")
 }
 ```
+if 3 > 2 {
+
+ print("You win!")
+ 
+}
+
+else {
+
+ print("You lose!")
+ 
 ***
 
 ## Question 9
@@ -216,6 +257,19 @@ if firstName == "Peter" {
 }
 let fullName = firstName + " " + lastName
 ```
+let firstName = "Peter"
+
+var lastName = "Last Name"
+
+if firstName == "Peter" {
+    
+ let lastName = "Gabriel"
+ 
+} else if firstName == "Phil" {
+
+ let lastName = "Collins"
+}
+let fullName = firstName + " " + lastName
 ***
 
 ## Question 12
