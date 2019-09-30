@@ -146,15 +146,15 @@ Given the first name and last name of a Fellow, declare `fullName` variable and 
 let firstName = "John"
 let lastName = "Appleseed"
 
-// enter code below
-```
 let firstName = "John"
 
 let lastName = "Appleseed"
 
 var fullName = "John Appleseed"
 
-print("John \(lastName)")
+print("John \(lastName)") 
+```
+
 
 
 ***
