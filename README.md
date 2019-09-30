@@ -116,7 +116,6 @@ Given the current weather conditions (rain, sunny, snow), use a switch statement
 let currentWeather = "rain"
 
 // enter code below
-```
 
 let currentWeather = "rain"
 
@@ -132,6 +131,9 @@ default:
 print("no further action needed")
     
 }
+```
+
+
 
 
 
@@ -145,6 +147,8 @@ Given the first name and last name of a Fellow, declare `fullName` variable and 
 ```swift
 let firstName = "John"
 let lastName = "Appleseed"
+
+// enter code below
 
 let firstName = "John"
 
@@ -199,7 +203,7 @@ if {
 else {
  print("You lose!")
 }
-//
+// enter code below
 
 if 3 > 2 {
 
