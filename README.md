@@ -274,7 +274,8 @@ if firstName == "Peter" {
 }
 let fullName = firstName + " " + lastName
 
-//
+// enter code below
+
 let firstName = "Peter"
 
 var lastName = "Last Name"
@@ -324,13 +325,13 @@ default:
 ```
 What happens when you change number to:
 
--a. 365?
+-a. 365? Days in year 
 
--b. 1024?
+-b. 1024? Bytes in a Kilobyte
 
--c. 65?
+-c. 65? Some uninteresting number
 
-What happens when you remove the default clause?
+What happens when you remove the default clause? Code does not compile 
 
 ***
 
