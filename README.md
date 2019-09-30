@@ -174,6 +174,16 @@ if temperatureInFahrenheit <= 40 {
 
 //Re-written statement here
 
+var temperatureInFarenheit = 21
+switch temperatureInFarenheit {
+case 0...40:
+    print("its cold out")
+case 85...100:
+    print("its really warm")
+default:
+    print("weather is moderate")
+}
+
 ```
 
 ***
@@ -189,7 +199,8 @@ if {
 else {
  print("You lose!")
 }
-```
+//
+
 if 3 > 2 {
 
  print("You win!")
@@ -199,6 +210,8 @@ if 3 > 2 {
 else {
 
  print("You lose!")
+```
+
  
 ***
 
@@ -256,7 +269,8 @@ if firstName == "Peter" {
  let lastName = "Collins"
 }
 let fullName = firstName + " " + lastName
-```
+
+//
 let firstName = "Peter"
 
 var lastName = "Last Name"
@@ -270,6 +284,8 @@ if firstName == "Peter" {
  let lastName = "Collins"
 }
 let fullName = firstName + " " + lastName
+```
+
 ***
 
 ## Question 12
@@ -285,7 +301,7 @@ let nameAndBirthYear: (String, Int)
 
 ## Question 13
 
-Consider the below switch statement. What should your system currently print?
+Consider the below switch statement. What should your system currently print? The answer to life, the universe and everything. 
 
 ```swift
 let number = 42
