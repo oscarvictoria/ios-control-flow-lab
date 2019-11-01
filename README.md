@@ -33,7 +33,11 @@ print("D")
 - C
 - D
 
-## Answer: A,C,D
+## Answer:
+```
+A,C,D 
+
+```
 ***
 ## Question 2
 
@@ -57,7 +61,10 @@ switch appInfo {
 - I'm not quite sure what you are looking at
 - It will give a compile-time error
 
-## Answer: myCoolApp hasn't released yet
+## Answer:
+```
+"myCoolApp hasn't released yet"
+```
 ***
 ## Question 3
 
@@ -82,7 +89,10 @@ default:
 - C
 - D
 
-## Answer: D 
+## Answer: 
+```
+D
+```
 ***
 ## Question 4
 
@@ -106,7 +116,10 @@ case "snickers":
 - No default case in the switch statement
 - No print statement right outside the switch statement
 
-## Answer:  No opening and closing brackets in each of the cases
+## Answer: 
+```
+No default case in the switch statement
+```
 ***
 ## Question 5
 
@@ -132,13 +145,6 @@ print("no further action needed")
     
 }
 ```
-
-
-
-
-
-    
-
 ***
 ## Question 6
 
@@ -150,13 +156,9 @@ let lastName = "Appleseed"
 
 // enter code below
 
-let firstName = "John"
+var fullName = firstName + " " + lastName
+print("The fellow's name is \(fullName)")
 
-let lastName = "Appleseed"
-
-var fullName = "John Appleseed"
-
-print("John \(lastName)") 
 ```
 
 
@@ -243,6 +245,13 @@ Output:
 Error
 
 ```
+```
+
+
+
+
+
+```
 ***
 
 ## Question 10
@@ -257,6 +266,11 @@ Numeric Score 	Letter Grade
 70 - 79 	C
 65 - 69 	D
 Below 65 	F
+```
+```
+
+
+
 ```
 ***
 
@@ -290,6 +304,12 @@ if firstName == "Peter" {
 }
 let fullName = firstName + " " + lastName
 ```
+```
+
+
+
+
+```
 
 ***
 
@@ -299,6 +319,10 @@ Write an if statement that prints out what decade of life someone is in (e.g "Yo
 
 ```swift
 let nameAndBirthYear: (String, Int)
+
+```
+```
+
 
 ```
 ***
@@ -333,6 +357,13 @@ What happens when you change number to:
 
 What happens when you remove the default clause? Code does not compile 
 
+```
+
+
+
+
+```
+
 ***
 
 
@@ -354,6 +385,12 @@ if population > 10000 {
  message = "\(population) is a large town"
 }
 ```
+```
+
+
+
+
+```
 ***
 
 ## Question 15
@@ -367,4 +404,12 @@ b. Using a switch statement
 ```swift
 let myTuple: (Int, Int) = (5, 10)
 ```
+
+
+```
+
+
+
+```
 ***
+
