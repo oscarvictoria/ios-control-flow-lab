@@ -246,11 +246,28 @@ Error
 
 ```
 ```
-
-
-
-
-
+switch numberOfSides {
+case 0...2:
+    print("Error")
+case 3:
+    print("Traingle")
+case 4:
+    print("Square")
+case 5:
+    print("Pentagon")
+case 6:
+    print("Hexagon")
+case 7:
+    print("Heptagon")
+case 8:
+    print("Octagon")
+case 9:
+    print("Nonagon")
+case 10:
+    print("Decagon")
+default:
+    print("Error")
+}
 ```
 ***
 
@@ -260,17 +277,32 @@ Create a switch statement that will convert a number grade into a letter grade a
 
 ```swift
 Numeric Score 	Letter Grade
-100 	A+
-90 - 99	A
-80 - 89	B
-70 - 79 	C
-65 - 69 	D
-Below 65 	F
+100 	        A+
+90 - 99     	A
+80 - 89     	B
+70 - 79         C
+65 - 69         D
+Below 65        F
 ```
 ```
+let grade = 87
 
-
-
+switch grade {
+case 0..<65:
+    print("Your grade on your final is a F")
+case 65...69:
+    print("Your grade on your final is a D")
+case 70...79:
+    print("Your grade on your final is a C")
+case 80...89:
+    print("Your grade on your final is a B")
+case 90...99:
+    print("Your grade on your final is a A")
+case 100:
+    print("Your grade on your final is a A+")
+default:
+    print("Invalid grade")
+}
 ```
 ***
 
@@ -290,25 +322,15 @@ let fullName = firstName + " " + lastName
 
 // enter code below
 
-let firstName = "Peter"
-
-var lastName = "Last Name"
+let firstName = "Phil"
+var lastName = String()
 
 if firstName == "Peter" {
-    
- let lastName = "Gabriel"
- 
+    lastName = "Gabriel"
 } else if firstName == "Phil" {
-
- let lastName = "Collins"
+    lastName = "Colins"
 }
-let fullName = firstName + " " + lastName
-```
-```
-
-
-
-
+let FullName = hisFirstName + " " + lastName
 ```
 
 ***
@@ -322,15 +344,29 @@ let nameAndBirthYear: (String, Int)
 
 ```
 ```
+nameAndBirthYear = ("Oscar", 21)
 
-
+switch nameAndBirthYear.1 {
+case 1...10:
+    print("you are in your childhood")
+case 10...20:
+    print("your are in your teens")
+case 20...30:
+    print("you are in your twenties")
+case 30...40:
+    print("you are in your thirties")
+case 40...50:
+    print("you are in your fourties")
+default:
+    print("you are in your late years")
+}
 ```
 ***
 
 
 ## Question 13
 
-Consider the below switch statement. What should your system currently print? The answer to life, the universe and everything. 
+Consider the below switch statement. What should your system currently print? 
 
 ```swift
 let number = 42
@@ -349,13 +385,13 @@ default:
 ```
 What happens when you change number to:
 
--a. 365? Days in year 
+-a. 365? 
 
--b. 1024? Bytes in a Kilobyte
+-b. 1024?
 
--c. 65? Some uninteresting number
+-c. 65? 
 
-What happens when you remove the default clause? Code does not compile 
+What happens when you remove the default clause? 
 
 ```
 
@@ -404,12 +440,12 @@ b. Using a switch statement
 ```swift
 let myTuple: (Int, Int) = (5, 10)
 ```
-
-
 ```
-
-
-
+if myTuple.0 + myTuple.1 >= 15 {
+    print("The sum of my tuple is atleast 15")
+} else {
+    print("The sum of my tuple is not atleast 15")
+}
 ```
 ***
 
